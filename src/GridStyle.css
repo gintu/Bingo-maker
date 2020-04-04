@@ -1,0 +1,27 @@
+.grid-container {
+    height:400px;
+    width:400px;
+    
+      display: grid;
+      /* grid-template-columns: repeat(3,1fr); */
+   
+      grid-gap: 4px;
+      background-color: #522d5b;
+
+      padding: 2px;
+      border-radius:3px;
+      border: #522d5b 3px solid;
+    }
+    
+    .grid-container > div {
+      background-color: #d7385e;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      
+        
+      
+      text-align: center;
+      color:#e7d39f;
+      border-radius:3px;
+    }
